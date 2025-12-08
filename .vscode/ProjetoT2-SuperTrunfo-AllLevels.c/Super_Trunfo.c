@@ -13,7 +13,7 @@ int main(){
 
     /* Carta 1 */
 
-    printf("Super Trunfo - Carta 1\n");
+    printf("\n--- Super Trunfo - Carta 1 ---\n");
     printf("Digite a letra do estado (ex: A): ");
     scanf(" %c", &estado1);
     // O espaço antes de %c serve para limpar o buffer do teclado (enter anterior)
@@ -37,11 +37,17 @@ int main(){
     scanf(" %d", &numerodepontosturisticos1);
 
     //Cálculo
-    densidadepopulacional1 += população1 / area1
-    pibpercapita1 += pib1 / populacao1
+    /* Opção de cálculo simples, sem atribuição de valores; mas para seguir a matéria, vamos usar a fórmula seguinte.
+    densidadepopulacional1 = (float) populacao1 / area1;
+    pibpercapita1 = (float) pib1 / populacao1;*/
+    densidadepopulacional1 = (float) populacao1;
+    densidadepopulacional1 /= area1;
+
+    pibpercapita1 = (float) pib1;
+    pibpercapita1 /= populacao1;
 
     /* Carta 2 */
-    printf("\nSuper Trunfo - Carta 2\n");
+    printf("\n--- Super Trunfo - Carta 2 ---\n");
     printf("Digite a letra do estado: ");
     scanf(" %c", &estado2);
 
@@ -64,8 +70,14 @@ int main(){
     scanf(" %d", &numerodepontosturisticos2);
 
     //Cálculo
-    densidadepopulacional2 += população2 / area2
-    pibpercapita2 += pib2 / populacao2
+    /* Opção de cálculo simples, sem atribuição de valores; mas para seguir a matéria, vamos usar a fórmula seguinte.
+    densidadepopulacional2 = (float) populacao2 / area2;
+    pibpercapita2 = (float) pib2 / populacao2;*/
+    densidadepopulacional2 = (float) populacao2;
+    densidadepopulacional2 /= area2;
+
+    pibpercapita2 = (float) pib2;
+    pibpercapita2 /= populacao2;
 
     /* Exibindo os resultados das Cartas 1 e 2 */
     /* Carta 1 */
