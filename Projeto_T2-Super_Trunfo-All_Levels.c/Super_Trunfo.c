@@ -19,7 +19,7 @@ int main(){
     scanf(" %c", &estado1);
     // O espaço antes de %c serve para limpar o buffer do teclado (enter anterior)
 
-    printf("Digite o código da carta (A letra do estado seguida de um número de 01 a 04 (ex: A01, B03): ");
+    printf("Digite o código da carta (A letra do estado seguida de um número de 01 a 04 (ex: A01, B03)): ");
     scanf(" %s", codigodacarta1);
 
     printf("Digite o nome da cidade sem espaços (por exemplo: RiodeJaneiro): ");
@@ -89,7 +89,8 @@ int main(){
     /* Exibindo os resultados das Cartas 1 e 2 */
 
     /* Carta 1 */
-    printf("--- Carta 1 ---\n");
+    printf("\n\n=== Dados das Cartas ===\n");
+    printf("\n--- Carta 1 ---\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigodacarta1);
     printf("Nome da Cidade: %s\n", nomedacidade1);
@@ -102,7 +103,7 @@ int main(){
     printf("Superpoder: %.2f\n", SuperPoder1);
 
         /* Carta 2 */
-    printf("--- Carta 2 ---\n");
+    printf("\n--- Carta 2 ---\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigodacarta2);
     printf("Nome da Cidade: %s\n", nomedacidade2);
@@ -125,8 +126,8 @@ int main(){
     int comparacaopibpercapita = pibpercapita1 > pibpercapita2;
     int comparacaoSuperPoder = SuperPoder1 > SuperPoder2;
 
-    printf("\n--- Comparação das cartas ---\n");
-    printf("\n(1 para verdadeiro – Carta 1 vence; e 0 para falso – Carta 2 vence)\n");
+    printf("\n--- Resultado da Comparação Simples das Cartas ---\n");
+    printf("Seja 1 para verdadeiro (Carta 1 vence) ou 0 para falso (Carta 2 vence):\n");
     printf("População: %u\n", comparacaopopulacao);
     printf("Área: %d\n", comparacaoarea);
     printf("PIB: %d\n", comparacaopib);
