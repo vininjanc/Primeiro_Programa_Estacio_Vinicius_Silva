@@ -103,6 +103,7 @@ SOMA CARTA 2: 45000400.00
 <div align="center">
   <h3>🏁 Divirta-se jogando!</h3>
   <p>Desenvolvido por <strong>Vinícius Silva</strong> durante a jornada de CS.</p>
+  <p><em>"Trabalhem arduamente e de bom ânimo em tudo quanto fizerem, como se estivessem trabalhando para o Senhor e não simplesmente para os homens, lembrando-se que o Senhor Jesus é quem vai dar-lhes a recompensa da herança. É para Cristo, o Senhor, que vocês estão verdadeiramente trabalhando."(Colossenses 3:23-24 NBV-P)</em></p>
 </div>
 
 ---
